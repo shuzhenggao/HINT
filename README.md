@@ -61,6 +61,30 @@ You can change the model's hyperparameter in each bash file.
 
 
 
+###  Ablation study
+**Code Summarization (Unixcoder Python)**
+|               | BLEU            | ROUGE                       | METEOR | CIDER |
+| ------------- | --------------------- | --------------------------- | ------ | ----- |
+| Random selection                | 23.36            | 41.13          | 15.99  | 1.42  |
+| -w/o loss-based selection       | 23.10            | 40.70          | 16.12  | 1.40  |
+| -w/o retrieval-based selection  | 23.66            | 41.54          | 16.62  | 1.47  |
+| -w/o data selection             | 23.33            | 40.96          | 18.97  | 1.41  |
+| -w/o noise tolerant loss        | 23.67            | 41.49          | 16.42  | 1.46  |
+| -w/o consistency regularization | 23.68            | 41.54          | 16.58  | 1.47  |
+
+
+**Code Summarization (CodeBERT Java)**
+|               | BLEU            | ROUGE | METEOR | CIDER |
+| ------------- | --------------------- | --------------------------- | ------ | ----- |
+| Random selection                | 14.48 |	28.86 |	8.63 |	0.69
+| -w/o loss-based selection       | 14.28 |	28.62 |	8.77 |	0.67 
+| -w/o retrieval-based selection  | 14.39 |	29.02 |	8.77 |	0.68 
+| -w/o data selection             | 13.70 |	27.60 |	8.14 |	0.60 
+| -w/o noise tolerant loss        | 14.55 |	29.41 |	8.62 |	0.68 
+| -w/o consistency regularization | 14.49 |	29.25 |	8.65 |	0.68 
+
+
+
 ###  Analysis of the parameter threshold K
 **Code Summarization (CodeT5 Java)**
 |               | **BLEU**              | ROUGE                       | METEOR | CIDER |
