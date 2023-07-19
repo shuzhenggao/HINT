@@ -1,6 +1,6 @@
 # HINT
 
-The repo of our paper "Learning in the Wild: Leveraging the Unlabeled Data Task-Specifically for Pre-trained Code Models". 
+The repo of our ICSE 2023 submission "Learning in the Wild: Leveraging the Unlabeled Data Task-Specifically for Pre-trained Code Models". 
 
 ## Dependency
 * Python 3.9
@@ -13,7 +13,7 @@ The repo of our paper "Learning in the Wild: Leveraging the Unlabeled Data Task-
 
 
 ## Data
-Our processed datasets can be downloaded [here](https://figshare.com/articles/dataset/Data_for_ASE_peer_review/22760795).
+Our processed datasets can be downloaded [here](https://figshare.com/s/cb9b7037f7cf3fb1ecf1).
 
 
 ## Usage'
