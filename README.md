@@ -16,7 +16,7 @@ The repo of our ICSE 2024 submission "Learning in the Wild: Leveraging the Unlab
 Our processed datasets can be downloaded [here](https://figshare.com/s/cb9b7037f7cf3fb1ecf1).
 
 
-## Usage'
+## Usage
 To reproduce the results, you can first move to the direcotory of each pre-trained code model ``cd {CodeBERT,CodeT5,Unixcoder}``. 
 
 ### Code Summarization
