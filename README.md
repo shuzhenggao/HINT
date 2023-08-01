@@ -1,6 +1,6 @@
 # HINT
 
-The repo of our ICSE 2024 submission "Learning in the Wild: Effectively Leveraging the Unlabeled Data for Pre-trained Code Models". 
+The repo of our ICSE 2024 submission "Learning in the Wild: Towards Leveraging Unlabeled Data for Effectively Tuning Pre-trained Code Models". 
 
 ## Dependency
 * Python 3.9
