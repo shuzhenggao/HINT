@@ -12,6 +12,9 @@ The repo of our ICSE 2024 submission "Learning in the Wild: Towards Leveraging U
 * Java (for METEOR metric calculation)
 
 
+## Data Pre-processing and Case Study
+We provide provide a more detailed description of data pre-processing and more case studies in the hint_details.pdf file.
+
 ## Data
 Our processed datasets can be downloaded [here](https://figshare.com/s/cb9b7037f7cf3fb1ecf1).
 
