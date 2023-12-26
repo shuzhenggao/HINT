@@ -1,6 +1,6 @@
 # HINT
 
-The repo of our ICSE 2024 submission "Learning in the Wild: Towards Leveraging Unlabeled Data for Effectively Tuning Pre-trained Code Models". 
+The repo of our ICSE 2024 paper "Learning in the Wild: Towards Leveraging Unlabeled Data for Effectively Tuning Pre-trained Code Models". 
 
 
 ## Dependency
