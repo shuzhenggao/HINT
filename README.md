@@ -2,8 +2,6 @@
 
 The repo of our ICSE 2024 submission "Learning in the Wild: Towards Leveraging Unlabeled Data for Effectively Tuning Pre-trained Code Models". 
 
-## Data Pre-processing and Case Study
-We provide provide a more detailed description of data pre-processing and more case studies in the hint_details.pdf file.
 
 ## Dependency
 * Python 3.9
@@ -15,8 +13,17 @@ We provide provide a more detailed description of data pre-processing and more c
 * Java (for METEOR metric calculation)
 
 ## Data
-Our processed datasets can be downloaded [here](https://figshare.com/s/cb9b7037f7cf3fb1ecf1).
 
+**Statistics of the benchmark datasets**
+|               | Train            | Unlabel                       | Valid | Test |
+| ------------- | --------------------- | --------------------------- | ------ | ----- |
+| Code Summarization-JCSD                | 6,970            | 62,738          | 5,183  | 10,955  |
+| Code Summarization-PCSD       | 5,553            | 49,985          | 8,714  | 6,489  |
+| Assertion Generation-ATLAS  | 15,052            | 135,471          | 18,816  | 18,815  |
+| Defect Detection-Big-vul             | 15,090            | 135,816          | 18,861  | 18,869  |
+
+Our processed datasets can be downloaded [here](https://figshare.com/s/cb9b7037f7cf3fb1ecf1).  
+We provide provide a more detailed description of evaluation metrics [here](https://github.com/shuzhenggao/HINT/blob/master/hint_detail.pdf). 
 
 ## Usage
 To reproduce the results, you can first move to the direcotory of each pre-trained code model ``cd {CodeBERT,CodeT5,Unixcoder}``. 
