@@ -22,7 +22,7 @@ The repo of our ICSE 2024 paper "Learning in the Wild: Towards Leveraging Unlabe
 | Assertion Generation-ATLAS  | 15,052            | 135,471          | 18,816  | 18,815  |
 | Defect Detection-Big-vul             | 15,090            | 135,816          | 18,861  | 18,869  |
 
-Our processed datasets can be downloaded [here](https://figshare.com/s/cb9b7037f7cf3fb1ecf1).  
+Our processed datasets can be downloaded [here](https://zenodo.org/records/10950370).  
 We provide provide a more detailed description of evaluation metrics [here](https://github.com/shuzhenggao/HINT/blob/master/hint_detail.pdf). 
 
 ## Usage
